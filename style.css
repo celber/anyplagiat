@@ -1,0 +1,16 @@
+.row {
+	max-width: none;
+}
+
+#editor {
+	background-color: #E7ECEE;	
+	overflow-x: scroll;
+	padding: 20px;
+	height: calc(100% - 45px);
+}
+
+#editor, #editor * {
+	font-family: "Courier New", Courier, monospace!important;
+	font-weight: 600;
+	font-size: 10pt;
+}
